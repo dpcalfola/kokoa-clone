@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        border: 2px solid blanchedalmond;
+      }
+      html {
+        padding: 20px;
+        background-color: tomato;
+      }
+      body {
+        padding: 20px;
+        margin: 0px;
+        background-color: thistle;
+      }
+      div {
+        border: 2px solid black;
+        /* margin: 20px 15px; */
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+      }
+      /* inline 은 높이와 너비가 없다. */
+      span {
+        /* display: block; */
+        background-color: blueviolet;
+      }
+      #first {
+        background-color: black;
+      }
+      #second {
+        background-color: wheat;
+      }
+      #third {
+        background-color: thistle;
+      }
+      #fourth {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <div id="fourth">
+            <span>Hello</span>
+            <!-- border 속성은 inline 에도 적용된다. -->
+            <!-- height, width 속성은 inline 에는 적용되지 않는다. -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <span>hello</span>
+    <span>hello</span>
+    <a href="#">Link</a>
+    <img src="./img/IMG_0958.jpg" />
+    <span>hello</span> -->
+  </body>
+</html>
+<!-- div, address, header: block : 옆에 아무것도 올 수 없다. -->
+<!-- span, a, img: inline : 줄바꿈 없이 나란히 자리잡는다. -->

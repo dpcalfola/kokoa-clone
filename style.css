@@ -1,0 +1,28 @@
+body {
+  margin: 50px;
+}
+span {
+  background-color: teal;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+.btn {
+  border-radius: 20%;
+  padding: 30px;
+}
+
+#tomato,
+#tomato1,
+#tomato2,
+#tomato3 {
+  background-color: tomato;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.honey {
+  background-color: burlywood;
+}
